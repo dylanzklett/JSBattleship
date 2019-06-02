@@ -1,0 +1,77 @@
+<html>
+<head>
+	<title>Battleship!</title>
+	<link rel="stylesheet" type="text/css" href="battleship.css">
+</head>
+<body id="background">
+
+	<!-- Defender Instructions -->
+	<h1 class="instructions" id="hideships">
+		Player 1 (Defender): Hide your ships!
+	</h1>
+
+	<h3 class="instructions" id="hideships_2">
+		Click a square to place a ship there. You must place 5 ships, of 1 square each.
+	</h3>
+
+	<!-- Attacker Instructions -->
+	<h1 class="instructions" id="attack">
+		Player 2 (Attacker): Use <- and -> to move, Spacebar to fire.
+	</h1>
+	<h3 class="instructions" id="attack_2">
+		Sink all 5 of your opponent's ships!
+	</h3>
+
+
+	<!-- Begin Gameboard Here -->
+	<div id="gameboard">
+		<!-- Square Row 1 -->
+		<div class="gamesquare g1" id="g1s1" tabindex=0></div>
+		<div class="gamesquare g1" id="g1s2" tabindex=0></div>
+		<div class="gamesquare g1" id="g1s3" tabindex=0></div>
+		<div class="gamesquare g1" id="g1s4" tabindex=0></div>
+		<div class="gamesquare g1" id="g1s5" tabindex=0></div>
+		<div class="gamesquare g1" id="g1s6" tabindex=0></div>
+		<!-- Square Row 2 -->
+		<div class="gamesquare g2" id="g2s1" tabindex=0></div>
+		<div class="gamesquare g2" id="g2s2" tabindex=0></div>
+		<div class="gamesquare g2" id="g2s3" tabindex=0></div>
+		<div class="gamesquare g2" id="g2s4" tabindex=0></div>
+		<div class="gamesquare g2" id="g2s5" tabindex=0></div>
+		<div class="gamesquare g2" id="g2s6" tabindex=0></div>
+		<!-- Square Row 3 -->
+		<div class="gamesquare g3" id="g3s1" tabindex=0></div>
+		<div class="gamesquare g3" id="g3s2" tabindex=0></div>
+		<div class="gamesquare g3" id="g3s3" tabindex=0></div>
+		<div class="gamesquare g3" id="g3s4" tabindex=0></div>
+		<div class="gamesquare g3" id="g3s5" tabindex=0></div>
+		<div class="gamesquare g3" id="g3s6" tabindex=0></div>
+		<!-- Square Row 4 -->
+		<div class="gamesquare g4" id="g4s1" tabindex=0></div>
+		<div class="gamesquare g4" id="g4s2" tabindex=0></div>
+		<div class="gamesquare g4" id="g4s3" tabindex=0></div>
+		<div class="gamesquare g4" id="g4s4" tabindex=0></div>
+		<div class="gamesquare g4" id="g4s5" tabindex=0></div>
+		<div class="gamesquare g4" id="g4s6" tabindex=0></div>
+		<!-- Square Row 5 -->
+		<div class="gamesquare g5" id="g5s1" tabindex=0></div>
+		<div class="gamesquare g5" id="g5s2" tabindex=0></div>
+		<div class="gamesquare g5" id="g5s3" tabindex=0></div>
+		<div class="gamesquare g5" id="g5s4" tabindex=0></div>
+		<div class="gamesquare g5" id="g5s5" tabindex=0></div>
+		<div class="gamesquare g5" id="g5s6" tabindex=0></div>
+		<!-- Square Row 6 -->
+		<div class="gamesquare g6" id="g6s1" tabindex=0></div>
+		<div class="gamesquare g6" id="g6s2" tabindex=0></div>
+		<div class="gamesquare g6" id="g6s3" tabindex=0></div>
+		<div class="gamesquare g6" id="g6s4" tabindex=0></div>
+		<div class="gamesquare g6" id="g6s5" tabindex=0></div>
+		<div class="gamesquare g6" id="g6s6" tabindex=0></div>
+	</div>
+
+
+
+
+	<script src="battleship.js"></script>
+</body>
+</html>
